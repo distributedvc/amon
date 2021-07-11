@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Amon should generate a token 1`] = `
+Object {
+  "iat": Any<Number>,
+  "userId": "bar",
+}
+`;
+
+exports[`Amon should generate an AuthPayload, token only 1`] = `
+Object {
+  "token": Any<String>,
+  "user": undefined,
+}
+`;
+
+exports[`Amon should generate an AuthPayload, with user 1`] = `
+Object {
+  "token": Any<String>,
+  "user": Object {
+    "email": "foo@bar.com",
+  },
+}
+`;
+
+exports[`Amon should retrieve the userId from the headers 1`] = `"baz"`;
