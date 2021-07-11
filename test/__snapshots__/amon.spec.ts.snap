@@ -7,13 +7,6 @@ Object {
 }
 `;
 
-exports[`Amon should generate an AuthPayload, token only 1`] = `
-Object {
-  "token": Any<String>,
-  "user": undefined,
-}
-`;
-
 exports[`Amon should generate an AuthPayload, with user 1`] = `
 Object {
   "token": Any<String>,
