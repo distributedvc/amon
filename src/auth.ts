@@ -24,15 +24,15 @@ export async function createJwtToken({
 
 export interface AuthPayload<User> {
   token: string;
-  user?: User;
+  user: User;
 }
 
-export async function createAuthPayload<T>(
+export async function createAuthPayload<User>(
   userId: string,
-  user?: T,
+  user: User,
   options?: SignOptions,
   appSecret?: string
-): Promise<AuthPayload<T>> {
+): Promise<AuthPayload<User>> {
   return { user, token: await createJwtToken({ userId, options, appSecret }) };
 }
 
