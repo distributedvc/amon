@@ -36,17 +36,6 @@ describe('Amon', (): void => {
     });
   });
 
-  it('should generate an AuthPayload, token only', async (): Promise<void> => {
-    type User = { email: string };
-    const userId = 'foo';
-
-    const authPayload = await createAuthPayload<User>(userId);
-
-    expect(authPayload).toMatchSnapshot({
-      token: expect.any(String),
-    });
-  });
-
   it('should generate an AuthPayload, with user', async (): Promise<void> => {
     type User = { email: string };
     const userId = 'foo';

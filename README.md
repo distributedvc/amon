@@ -109,11 +109,9 @@ app.get('/', async (request, reply) => {
   type User = { username: 'batman' };
 
   const userId = getUserId(request.headers);
-  const authPayload = await createAuthPayload<User>(userId);
 
-  // You can also pass the user to sign the JWT with some user props
-  // const user = await db.findUnique({ where: { id: userId } });
-  // const authPayload = await createAuthPayload<User>(userId, user);
+  const user = await db.findUnique({ where: { id: userId } });
+  const authPayload = await createAuthPayload<User>(userId, user);
 
   reply.type('application/json').code(200);
   return authPayload;
