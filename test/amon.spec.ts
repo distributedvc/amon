@@ -4,6 +4,7 @@ import {
   createJwtToken,
   createAuthPayload,
   getUserId,
+  getDecodedToken,
 } from '../src';
 import { verify } from 'jsonwebtoken';
 
@@ -11,19 +12,32 @@ describe('Amon', (): void => {
   process.env.APP_SECRET = 'bar';
 
   it('should create a password hash', async (): Promise<void> => {
-    const hashPassword = await createPasswordHash('foo');
+    const hashPassword = await createPasswordHash({
+      nonHashedPassword: 'foo',
+    });
     expect(hashPassword).toContain('$2a$10$');
   });
 
   it('should return true if the password is valid', async (): Promise<void> => {
-    const hashPassword = await createPasswordHash('bar');
-    const valid = await isPasswordValid('bar', hashPassword);
+    const hashPassword = await createPasswordHash({
+      nonHashedPassword: 'bar',
+    });
+    const valid = await isPasswordValid({
+      hash: hashPassword,
+      password: 'bar',
+    });
+
     expect(valid).toBeTruthy();
   });
 
   it('should return false if the password is valid', async (): Promise<void> => {
-    const hashPassword = await createPasswordHash('bar');
-    const valid = await isPasswordValid('baz', hashPassword);
+    const hashPassword = await createPasswordHash({
+      nonHashedPassword: 'bar',
+    });
+    const valid = await isPasswordValid({
+      hash: hashPassword,
+      password: 'baz',
+    });
     expect(valid).toBeFalsy();
   });
 
@@ -40,8 +54,11 @@ describe('Amon', (): void => {
     type User = { email: string };
     const userId = 'foo';
 
-    const authPayload = await createAuthPayload<User>(userId, {
-      email: 'foo@bar.com',
+    const authPayload = await createAuthPayload<User>({
+      userId,
+      user: {
+        email: 'foo@bar.com',
+      },
     });
 
     expect(authPayload).toMatchSnapshot({
@@ -49,18 +66,29 @@ describe('Amon', (): void => {
     });
   });
 
+  it('should retrieve the token payload from the headers', async (): Promise<void> => {
+    const token = await createJwtToken({ userId: 'baz', payload: { role: 'USER' } });
+    const headers = { authorization: token };
+
+    const decodedToken = getDecodedToken<{ iat: number; role: string }>({ headers });
+
+    expect(decodedToken).toMatchSnapshot({
+      iat: expect.any(Number),
+    });
+  });
+
   it('should retrieve the userId from the headers', async (): Promise<void> => {
     const token = await createJwtToken({ userId: 'baz' });
     const headers = { authorization: token };
 
-    const userId = getUserId(headers);
+    const userId = getUserId({ headers });
 
     expect(userId).toMatchSnapshot();
   });
 
   it('should return null if no authorization header is present', async (): Promise<void> => {
     const headers = {};
-    const userId = getUserId(headers);
+    const userId = getUserId({ headers });
 
     expect(userId).toBeNull();
   });

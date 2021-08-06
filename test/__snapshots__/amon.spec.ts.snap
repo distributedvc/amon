@@ -16,4 +16,12 @@ Object {
 }
 `;
 
+exports[`Amon should retrieve the token payload from the headers 1`] = `
+Object {
+  "iat": Any<Number>,
+  "role": "USER",
+  "userId": "baz",
+}
+`;
+
 exports[`Amon should retrieve the userId from the headers 1`] = `"baz"`;
