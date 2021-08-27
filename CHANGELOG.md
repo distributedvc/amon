@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/distributedvc/amon/compare/v0.0.4...v0.0.5) (2021-08-27)
+
+
+### Bug Fixes
+
+* return null for jwt verify exceptions ([43e216e](https://github.com/distributedvc/amon/commit/43e216ea5f83ea651ee5089c3b41720c01909e72))
+
 ### [0.0.4](https://github.com/distributedvc/amon/compare/v0.0.3...v0.0.4) (2021-08-06)
 
 ### [0.0.3](https://github.com/distributedvc/amon/compare/v0.0.2...v0.0.3) (2021-07-14)
