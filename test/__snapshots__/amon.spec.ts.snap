@@ -25,3 +25,7 @@ Object {
 `;
 
 exports[`Amon should retrieve the userId from the headers 1`] = `"baz"`;
+
+exports[`Amon should return null for getUserId if the token is expired 1`] = `null`;
+
+exports[`Amon should return null for getUserId if the token is invalid 1`] = `null`;

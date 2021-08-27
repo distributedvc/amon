@@ -86,6 +86,24 @@ describe('Amon', (): void => {
     expect(userId).toMatchSnapshot();
   });
 
+  it('should return null for getUserId if the token is expired', async (): Promise<void> => {
+    const expiredToken = `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJiYXoiLCJpYXQiOjE2MzAwMjYyMTgsImV4cCI6MTYzMDAyNjI3OH0.xufbKkr3UJE1_5KCIBoM7kV8-rQ8yi7IYzfftu5H5kg`;
+    const headers = { authorization: expiredToken };
+
+    const userId = getUserId({ headers });
+
+    expect(userId).toMatchSnapshot();
+  });
+
+  it('should return null for getUserId if the token is invalid', async (): Promise<void> => {
+    const token = await createJwtToken({ userId: 'baz' });
+    const headers = { authorization: token };
+
+    const userId = getUserId({ headers, appSecret: 'foo' });
+
+    expect(userId).toMatchSnapshot();
+  });
+
   it('should return null if no authorization header is present', async (): Promise<void> => {
     const headers = {};
     const userId = getUserId({ headers });

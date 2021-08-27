@@ -68,13 +68,16 @@ export function getDecodedToken<TokenPayload, T extends IncomingHttpHeaders = In
   headers: T;
   appSecret?: string;
 }): (Token & TokenPayload) | null {
-  const Authorization = headers.authorization;
+  const { authorization } = headers;
+  const secret = appSecret || (process.env.APP_SECRET as string);
 
-  if (Authorization) {
-    const token = Authorization.replace('Bearer ', '');
-    const verifiedToken = verify(token, appSecret || (process.env.APP_SECRET as string)) as Token &
-      TokenPayload;
-    return verifiedToken;
+  if (authorization) {
+    try {
+      const token = authorization.replace('Bearer ', '');
+      return verify(token, secret) as Token & TokenPayload;
+    } catch (error) {
+      return null;
+    }
   }
 
   return null;
