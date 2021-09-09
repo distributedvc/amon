@@ -27,7 +27,7 @@
 
 </p>
 
-> Small library exposing utility methods for GraphQL
+> Small lib exposing reusable utility methods for JWT authentication, using `@node-rs/bcrypt` & `jsonwebtoken` under the hood.
 
 ### Install
 
@@ -49,7 +49,7 @@ npm install @distributed/amon
 
 Requirements:
 
-Use process.env.APP_SECREt or pass the appSecret into `createAuthPayload` / `createJwtToken` functions.
+Use `process.env.APP_SECRET` or pass the `appSecret` into `createAuthPayload` / `createJwtToken` functions.
 
 You can execute the following command to generate your secret:
 
