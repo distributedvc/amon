@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/distributedvc/amon/compare/v0.0.5...v0.0.6) (2021-09-09)
+
+
+### Features
+
+* use @node-rs/bcrypt ([278c163](https://github.com/distributedvc/amon/commit/278c1630d4dc7c349bde4e475fb321003ff00fc5))
+
 ### [0.0.5](https://github.com/distributedvc/amon/compare/v0.0.4...v0.0.5) (2021-08-27)
 
 
