@@ -15,7 +15,8 @@ describe('Amon', (): void => {
     const hashPassword = await createPasswordHash({
       nonHashedPassword: 'foo',
     });
-    expect(hashPassword).toContain('$2a$10$');
+
+    expect(hashPassword).toHaveLength(60);
   });
 
   it('should return true if the password is valid', async (): Promise<void> => {

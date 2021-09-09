@@ -1262,6 +1262,98 @@
     "@types/yargs" "^16.0.0"
     chalk "^4.0.0"
 
+"@napi-rs/triples@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@napi-rs/triples/-/triples-1.0.3.tgz#76d6d0c3f4d16013c61e45dfca5ff1e6c31ae53c"
+  integrity sha512-jDJTpta+P4p1NZTFVLHJ/TLFVYVcOqv6l8xwOeBKNPMgY/zDYH/YH7SJbvrr/h1RcS9GzbPcLKGzpuK9cV56UA==
+
+"@node-rs/bcrypt-android-arm64@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@node-rs/bcrypt-android-arm64/-/bcrypt-android-arm64-1.4.1.tgz#d4bbf64e26d61821214ab5ae63fb2534282d453c"
+  integrity sha512-CP/8CbrhLUjHW2OrOd6tgcx2FKMTWqUDAUCDtUq4ZBlUIn7P/e+/iosNK9QNBcT8AUMNr4TD1n5QW+SKM2Zk/Q==
+
+"@node-rs/bcrypt-darwin-arm64@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@node-rs/bcrypt-darwin-arm64/-/bcrypt-darwin-arm64-1.4.1.tgz#7713fb30cd4e2d94fd28228f4d38068495982286"
+  integrity sha512-6Digb49rzOS36X6qXaU4a6JxDsxPlWj09AFyF/kBhhmRocDKHyO2dnR8vexhjlzLyMlS00VL2q8kPei2Q8IAYQ==
+
+"@node-rs/bcrypt-darwin-x64@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@node-rs/bcrypt-darwin-x64/-/bcrypt-darwin-x64-1.4.1.tgz#c3e00f2fde217fff129537cdf7c0ceed52bfae7a"
+  integrity sha512-Rs/ySQ0CHRXJCOrSWod0b4fmF3Z+EP4RygSXBsV/NTVggHB2TrSdHRYajG9ZHB7P0acs2HHb1GcP5jOpggpMvA==
+
+"@node-rs/bcrypt-freebsd-x64@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@node-rs/bcrypt-freebsd-x64/-/bcrypt-freebsd-x64-1.4.1.tgz#3c75a5393e61eea55e0247ac55cd6bb3490c58ac"
+  integrity sha512-DDbyi54zhwXnSVgKSSj/7rS/501VZuY1wUBKAvq/J+/BXcCyQNZY+YEqMyTngRFZSPh8IuREI3Af/8WMsAG6cA==
+
+"@node-rs/bcrypt-linux-arm-gnueabihf@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@node-rs/bcrypt-linux-arm-gnueabihf/-/bcrypt-linux-arm-gnueabihf-1.4.1.tgz#de3fa55a1dbba735d8397897583b2c84d237284c"
+  integrity sha512-oiRR4vJUtwO2DG91oyWDHYx9oU79190l0FIgYKwfXjt9ge5ZFr+fVjXbayuANxWCAtt178u3HYwWR1ayHhRpUQ==
+
+"@node-rs/bcrypt-linux-arm64-gnu@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@node-rs/bcrypt-linux-arm64-gnu/-/bcrypt-linux-arm64-gnu-1.4.1.tgz#3f953ff69ea91b8ec26622a54d109f3018ecf656"
+  integrity sha512-oA/WNbHZ/RZ5Sm/NhbprkDRUMVzekpzrigYEC+XJaJSaVpSL5Qyif1mZLZW+AWNIoEM0LZ7/UFe8KyS2+gcW5Q==
+
+"@node-rs/bcrypt-linux-arm64-musl@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@node-rs/bcrypt-linux-arm64-musl/-/bcrypt-linux-arm64-musl-1.4.1.tgz#e8a332b4d8309513c54f1a759aabe1bada06a983"
+  integrity sha512-HaXiCmcTzH9zyel4kuy9heP319+ujhWtkcXW3NumpDp9pKw1JmsWecAzk0MjQbZGeLJkCpiRWOLZ86nW+HgkJg==
+
+"@node-rs/bcrypt-linux-x64-gnu@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@node-rs/bcrypt-linux-x64-gnu/-/bcrypt-linux-x64-gnu-1.4.1.tgz#9babe8de360ca5fbada67dc37676c0125844c492"
+  integrity sha512-CvG1gBTAg0Vv9MUbESH/3g2k+oak+NB3jVv4vreTsQu8jI7AVk4PSCMygiV+oWaoNA4Yhu6H+M+M6JccvtaYtg==
+
+"@node-rs/bcrypt-linux-x64-musl@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@node-rs/bcrypt-linux-x64-musl/-/bcrypt-linux-x64-musl-1.4.1.tgz#cbd3d447c5625b80eb7b4f5a356792041c0364d2"
+  integrity sha512-Q71g6aJ88VDz8ljIhFd8g3Uj+k+n7vhe6h1o/aO/Atqv2+YcRuZlrGohXvwf4Vu4RYNi99EkQu+uK46QjPJTmQ==
+
+"@node-rs/bcrypt-win32-arm64-msvc@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@node-rs/bcrypt-win32-arm64-msvc/-/bcrypt-win32-arm64-msvc-1.4.1.tgz#51adab1f395ca61e06eed2e3b396461904677730"
+  integrity sha512-4OL3ZWxeA0bCgC2aTDoz5+Y4wn3ct9UIOyzMxYMpXS7E5ESEMb58WRtXF+PZZJuxBKZX9R7J99l1OJ2yDCS0xg==
+
+"@node-rs/bcrypt-win32-ia32-msvc@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@node-rs/bcrypt-win32-ia32-msvc/-/bcrypt-win32-ia32-msvc-1.4.1.tgz#d2142ea14b793364b4c23742319de9f4ee6b2d38"
+  integrity sha512-A8S9557mVubI6o6dlYPZwdOKQBmA2sEzzwFIIxx257Mv5Zwt44x7hXwy9DBc98NaIyVBrC9eG5zxpAu/12r2lQ==
+
+"@node-rs/bcrypt-win32-x64-msvc@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@node-rs/bcrypt-win32-x64-msvc/-/bcrypt-win32-x64-msvc-1.4.1.tgz#addb615023fded434f9c7dd77f6ad3518b410005"
+  integrity sha512-24xUag1/BwuBviRpozXnYQKGsqfriQw3VaCBQb6chvUTwQVjrndYmZfW+TMrCWLgnD1qRT3T0u3cZoOY9QxknA==
+
+"@node-rs/bcrypt@^1.4.1":
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/@node-rs/bcrypt/-/bcrypt-1.4.1.tgz#6bd8d71348f3a7bb42bc684948e1a7ae073d2ef1"
+  integrity sha512-Pux/XiwzniJeL5pvmNBOiW6LILNlOF92a9APScztkM5ThbRsySARWEhSGIVJRf+/NIZ+ATXt15kW3tc74GPaWA==
+  dependencies:
+    "@node-rs/helper" "^1.2.1"
+  optionalDependencies:
+    "@node-rs/bcrypt-android-arm64" "^1.4.1"
+    "@node-rs/bcrypt-darwin-arm64" "^1.4.1"
+    "@node-rs/bcrypt-darwin-x64" "^1.4.1"
+    "@node-rs/bcrypt-freebsd-x64" "^1.4.1"
+    "@node-rs/bcrypt-linux-arm-gnueabihf" "^1.4.1"
+    "@node-rs/bcrypt-linux-arm64-gnu" "^1.4.1"
+    "@node-rs/bcrypt-linux-arm64-musl" "^1.4.1"
+    "@node-rs/bcrypt-linux-x64-gnu" "^1.4.1"
+    "@node-rs/bcrypt-linux-x64-musl" "^1.4.1"
+    "@node-rs/bcrypt-win32-arm64-msvc" "^1.4.1"
+    "@node-rs/bcrypt-win32-ia32-msvc" "^1.4.1"
+    "@node-rs/bcrypt-win32-x64-msvc" "^1.4.1"
+
+"@node-rs/helper@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@node-rs/helper/-/helper-1.2.1.tgz#e079b05f21ff4329d82c4e1f71c0290e4ecdc70c"
+  integrity sha512-R5wEmm8nbuQU0YGGmYVjEc0OHtYsuXdpRG+Ut/3wZ9XAvQWyThN08bTh2cBJgoZxHQUPtvRfeQuxcAgLuiBISg==
+  dependencies:
+    "@napi-rs/triples" "^1.0.3"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -1421,11 +1513,6 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
-"@types/bcryptjs@^2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@types/bcryptjs/-/bcryptjs-2.4.2.tgz#e3530eac9dd136bfdfb0e43df2c4c5ce1f77dfae"
-  integrity sha512-LiMQ6EOPob/4yUL66SZzu6Yh77cbzJFYll+ZfaPiPPFswtIlA/Fs1MzdKYA7JApHU49zQTbJGX3PDmCpIdDBRQ==
-
 "@types/eslint-visitor-keys@^1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@types/eslint-visitor-keys/-/eslint-visitor-keys-1.0.0.tgz#1ee30d79544ca84d68d4b3cdb0af4f205663dd2d"
@@ -1513,10 +1600,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-16.3.2.tgz#655432817f83b51ac869c2d51dd8305fb8342e16"
   integrity sha512-jJs9ErFLP403I+hMLGnqDRWT0RYKSvArxuBVh2veudHV7ifEC1WAmjJADacZ7mRbA2nWgHtn8xyECMAot0SkAw==
 
-"@types/node@^16.7.2":
-  version "16.7.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.7.2.tgz#0465a39b5456b61a04d98bd5545f8b34be340cb7"
-  integrity sha512-TbG4TOx9hng8FKxaVrCisdaxKxqEwJ3zwHoCWXZ0Jw6mnvTInpaB99/2Cy4+XxpXtjNv9/TgfGSvZFyfV/t8Fw==
+"@types/node@^16.9.0":
+  version "16.9.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-16.9.0.tgz#d9512fe037472dcb58931ce19f837348db828a62"
+  integrity sha512-nmP+VR4oT0pJUPFbKE4SXj3Yb4Q/kz3M9dSAO1GGMebRKWHQxLfDNmU/yh3xxCJha3N60nQ/JwXWwOE/ZSEVag==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -2291,11 +2378,6 @@ bcrypt-pbkdf@^1.0.0:
   integrity sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
   dependencies:
     tweetnacl "^0.14.3"
-
-bcryptjs@^2.4.3:
-  version "2.4.3"
-  resolved "https://registry.yarnpkg.com/bcryptjs/-/bcryptjs-2.4.3.tgz#9ab5627b93e60621ff7cdac5da9733027df1d0cb"
-  integrity sha1-mrVie5PmBiH/fNrF2pczAn3x0Ms=
 
 big.js@^5.2.2:
   version "5.2.2"
@@ -3842,10 +3924,10 @@ eslint-plugin-prettier@^3.1.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
-eslint-plugin-prettier@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-3.4.1.tgz#e9ddb200efb6f3d05ffe83b1665a716af4a387e5"
-  integrity sha512-htg25EUYUeIhKHXjOinK4BgCcDwtLHjqaxCDsMy5nbnUMkKFvIhMVCp+5GFUXQ4Nr8lBsPqtGAqBenbpFqAA2g==
+eslint-plugin-prettier@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-prettier/-/eslint-plugin-prettier-4.0.0.tgz#8b99d1e4b8b24a762472b4567992023619cb98e0"
+  integrity sha512-98MqmCJ7vJodoQK359bqQWaxOE0CS8paAz/GgjaZLyex4TTk3g9HugoO89EqWCrFiOqn9EVvcoo7gZzONCWVwQ==
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
@@ -4229,10 +4311,10 @@ fastify-warning@^0.2.0:
   resolved "https://registry.yarnpkg.com/fastify-warning/-/fastify-warning-0.2.0.tgz#e717776026a4493dc9a2befa44db6d17f618008f"
   integrity sha512-s1EQguBw/9qtc1p/WTY4eq9WMRIACkj+HTcOIK1in4MV5aFaQC9ZCIt0dJ7pr5bIf4lPpHvAtP2ywpTNgs7hqw==
 
-fastify@^3.20.2:
-  version "3.20.2"
-  resolved "https://registry.yarnpkg.com/fastify/-/fastify-3.20.2.tgz#99a5a2b4b4a8c468dfae245219af053b12c5fe55"
-  integrity sha512-POvayPpbyvkE/wHQquQsNwIgYKVRz7HhCXYJyzUuWEN3kch7/QeI+/azQCjS6+XHiHZPWQwrBKjJB9FBdJHrgA==
+fastify@^3.21.0:
+  version "3.21.0"
+  resolved "https://registry.yarnpkg.com/fastify/-/fastify-3.21.0.tgz#c732b58ffec74f885d1dc6b7b1a993288dfea9d6"
+  integrity sha512-hc9p0meCV8PXIQzg8BwXekhCmJm5LHfeJi7U3mKQTMu7pQT24CL756jUxM9sOLEbBpQoD82PejVPW2lfLiXJsw==
   dependencies:
     "@fastify/ajv-compiler" "^1.0.0"
     abstract-logging "^2.0.0"

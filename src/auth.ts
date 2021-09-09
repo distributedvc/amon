@@ -1,5 +1,5 @@
 import { sign, SignOptions, verify } from 'jsonwebtoken';
-import { compare, hash } from 'bcryptjs';
+import { compare, hash } from '@node-rs/bcrypt';
 import { IncomingHttpHeaders } from 'http';
 
 export async function createPasswordHash({
@@ -7,7 +7,7 @@ export async function createPasswordHash({
   salt = 10,
 }: {
   nonHashedPassword: string;
-  salt?: string | number;
+  salt?: number;
 }): Promise<string> {
   return hash(nonHashedPassword, salt);
 }
