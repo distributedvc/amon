@@ -1492,7 +1492,7 @@ __metadata:
   dependencies:
     "@commitlint/cli": ^16.2.1
     "@commitlint/config-conventional": ^16.2.1
-    "@node-rs/bcrypt": ^1.6.1
+    "@node-rs/bcrypt": ^1.6.2
     "@size-limit/preset-small-lib": ^7.0.8
     "@types/jest": ^27.4.1
     "@types/jsonwebtoken": ^8.5.8
@@ -1747,114 +1747,114 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-android-arm-eabi@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@node-rs/bcrypt-android-arm-eabi@npm:1.6.1"
+"@node-rs/bcrypt-android-arm-eabi@npm:1.6.2":
+  version: 1.6.2
+  resolution: "@node-rs/bcrypt-android-arm-eabi@npm:1.6.2"
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-android-arm64@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@node-rs/bcrypt-android-arm64@npm:1.6.1"
+"@node-rs/bcrypt-android-arm64@npm:1.6.2":
+  version: 1.6.2
+  resolution: "@node-rs/bcrypt-android-arm64@npm:1.6.2"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-darwin-arm64@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@node-rs/bcrypt-darwin-arm64@npm:1.6.1"
+"@node-rs/bcrypt-darwin-arm64@npm:1.6.2":
+  version: 1.6.2
+  resolution: "@node-rs/bcrypt-darwin-arm64@npm:1.6.2"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-darwin-x64@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@node-rs/bcrypt-darwin-x64@npm:1.6.1"
+"@node-rs/bcrypt-darwin-x64@npm:1.6.2":
+  version: 1.6.2
+  resolution: "@node-rs/bcrypt-darwin-x64@npm:1.6.2"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-freebsd-x64@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@node-rs/bcrypt-freebsd-x64@npm:1.6.1"
+"@node-rs/bcrypt-freebsd-x64@npm:1.6.2":
+  version: 1.6.2
+  resolution: "@node-rs/bcrypt-freebsd-x64@npm:1.6.2"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-linux-arm-gnueabihf@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@node-rs/bcrypt-linux-arm-gnueabihf@npm:1.6.1"
+"@node-rs/bcrypt-linux-arm-gnueabihf@npm:1.6.2":
+  version: 1.6.2
+  resolution: "@node-rs/bcrypt-linux-arm-gnueabihf@npm:1.6.2"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-linux-arm64-gnu@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@node-rs/bcrypt-linux-arm64-gnu@npm:1.6.1"
+"@node-rs/bcrypt-linux-arm64-gnu@npm:1.6.2":
+  version: 1.6.2
+  resolution: "@node-rs/bcrypt-linux-arm64-gnu@npm:1.6.2"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-linux-arm64-musl@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@node-rs/bcrypt-linux-arm64-musl@npm:1.6.1"
+"@node-rs/bcrypt-linux-arm64-musl@npm:1.6.2":
+  version: 1.6.2
+  resolution: "@node-rs/bcrypt-linux-arm64-musl@npm:1.6.2"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-linux-x64-gnu@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@node-rs/bcrypt-linux-x64-gnu@npm:1.6.1"
+"@node-rs/bcrypt-linux-x64-gnu@npm:1.6.2":
+  version: 1.6.2
+  resolution: "@node-rs/bcrypt-linux-x64-gnu@npm:1.6.2"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-linux-x64-musl@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@node-rs/bcrypt-linux-x64-musl@npm:1.6.1"
+"@node-rs/bcrypt-linux-x64-musl@npm:1.6.2":
+  version: 1.6.2
+  resolution: "@node-rs/bcrypt-linux-x64-musl@npm:1.6.2"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-win32-arm64-msvc@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@node-rs/bcrypt-win32-arm64-msvc@npm:1.6.1"
+"@node-rs/bcrypt-win32-arm64-msvc@npm:1.6.2":
+  version: 1.6.2
+  resolution: "@node-rs/bcrypt-win32-arm64-msvc@npm:1.6.2"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-win32-ia32-msvc@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@node-rs/bcrypt-win32-ia32-msvc@npm:1.6.1"
+"@node-rs/bcrypt-win32-ia32-msvc@npm:1.6.2":
+  version: 1.6.2
+  resolution: "@node-rs/bcrypt-win32-ia32-msvc@npm:1.6.2"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-win32-x64-msvc@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@node-rs/bcrypt-win32-x64-msvc@npm:1.6.1"
+"@node-rs/bcrypt-win32-x64-msvc@npm:1.6.2":
+  version: 1.6.2
+  resolution: "@node-rs/bcrypt-win32-x64-msvc@npm:1.6.2"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt@npm:^1.6.1":
-  version: 1.6.1
-  resolution: "@node-rs/bcrypt@npm:1.6.1"
+"@node-rs/bcrypt@npm:^1.6.2":
+  version: 1.6.2
+  resolution: "@node-rs/bcrypt@npm:1.6.2"
   dependencies:
-    "@node-rs/bcrypt-android-arm-eabi": 1.6.1
-    "@node-rs/bcrypt-android-arm64": 1.6.1
-    "@node-rs/bcrypt-darwin-arm64": 1.6.1
-    "@node-rs/bcrypt-darwin-x64": 1.6.1
-    "@node-rs/bcrypt-freebsd-x64": 1.6.1
-    "@node-rs/bcrypt-linux-arm-gnueabihf": 1.6.1
-    "@node-rs/bcrypt-linux-arm64-gnu": 1.6.1
-    "@node-rs/bcrypt-linux-arm64-musl": 1.6.1
-    "@node-rs/bcrypt-linux-x64-gnu": 1.6.1
-    "@node-rs/bcrypt-linux-x64-musl": 1.6.1
-    "@node-rs/bcrypt-win32-arm64-msvc": 1.6.1
-    "@node-rs/bcrypt-win32-ia32-msvc": 1.6.1
-    "@node-rs/bcrypt-win32-x64-msvc": 1.6.1
+    "@node-rs/bcrypt-android-arm-eabi": 1.6.2
+    "@node-rs/bcrypt-android-arm64": 1.6.2
+    "@node-rs/bcrypt-darwin-arm64": 1.6.2
+    "@node-rs/bcrypt-darwin-x64": 1.6.2
+    "@node-rs/bcrypt-freebsd-x64": 1.6.2
+    "@node-rs/bcrypt-linux-arm-gnueabihf": 1.6.2
+    "@node-rs/bcrypt-linux-arm64-gnu": 1.6.2
+    "@node-rs/bcrypt-linux-arm64-musl": 1.6.2
+    "@node-rs/bcrypt-linux-x64-gnu": 1.6.2
+    "@node-rs/bcrypt-linux-x64-musl": 1.6.2
+    "@node-rs/bcrypt-win32-arm64-msvc": 1.6.2
+    "@node-rs/bcrypt-win32-ia32-msvc": 1.6.2
+    "@node-rs/bcrypt-win32-x64-msvc": 1.6.2
   dependenciesMeta:
     "@node-rs/bcrypt-android-arm-eabi":
       optional: true
@@ -1882,7 +1882,7 @@ __metadata:
       optional: true
     "@node-rs/bcrypt-win32-x64-msvc":
       optional: true
-  checksum: 88bf097f824867e1875d1dcf3bb89b0c8df740fe7d1f4e8556f44346c45d399d020bc71795fe9e9cac52fe2f05d1922ac710685010a0dedd6c49e335f1bfb970
+  checksum: 70898b27b5ebcd6494e060c26b4d360e6c4784f41ecca45cb17fa0d629ab306025f1938eb4ae4f439f0012afed7f7b80ca2e5d4e513deeb433396df00d216620
   languageName: node
   linkType: hard
 
