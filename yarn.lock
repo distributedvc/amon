@@ -1282,7 +1282,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:^16.2.1":
+"@commitlint/cli@npm:16.2.1":
   version: 16.2.1
   resolution: "@commitlint/cli@npm:16.2.1"
   dependencies:
@@ -1301,7 +1301,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:^16.2.1":
+"@commitlint/config-conventional@npm:16.2.1":
   version: 16.2.1
   resolution: "@commitlint/config-conventional@npm:16.2.1"
   dependencies:
@@ -1490,25 +1490,25 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@distributed/amon@workspace:."
   dependencies:
-    "@commitlint/cli": ^16.2.1
-    "@commitlint/config-conventional": ^16.2.1
-    "@node-rs/bcrypt": ^1.6.2
-    "@size-limit/preset-small-lib": ^7.0.8
-    "@types/jest": ^27.4.1
-    "@types/jsonwebtoken": ^8.5.8
-    "@types/node": ^17.0.21
-    "@vercel/node": ^1.13.0
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-prettier: ^4.0.0
-    fastify: ^3.27.2
-    husky: ^7.0.4
-    jsonwebtoken: ^8.5.1
-    prettier: ^2.5.1
-    size-limit: ^7.0.8
-    standard-version: ^9.3.2
-    tsdx: ^0.14.1
-    tslib: ^2.3.1
-    typescript: ^4.6.2
+    "@commitlint/cli": 16.2.1
+    "@commitlint/config-conventional": 16.2.1
+    "@node-rs/bcrypt": 1.7.0
+    "@size-limit/preset-small-lib": 7.0.8
+    "@types/jest": 27.4.1
+    "@types/jsonwebtoken": 8.5.8
+    "@types/node": 17.0.21
+    "@vercel/node": 1.13.0
+    eslint-config-prettier: 8.5.0
+    eslint-plugin-prettier: 4.0.0
+    fastify: 3.27.2
+    husky: 7.0.4
+    jsonwebtoken: 8.5.1
+    prettier: 2.5.1
+    size-limit: 7.0.8
+    standard-version: 9.3.2
+    tsdx: 0.14.1
+    tslib: 2.3.1
+    typescript: 4.6.2
   languageName: unknown
   linkType: soft
 
@@ -1747,114 +1747,114 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-android-arm-eabi@npm:1.6.2":
-  version: 1.6.2
-  resolution: "@node-rs/bcrypt-android-arm-eabi@npm:1.6.2"
+"@node-rs/bcrypt-android-arm-eabi@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@node-rs/bcrypt-android-arm-eabi@npm:1.7.0"
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-android-arm64@npm:1.6.2":
-  version: 1.6.2
-  resolution: "@node-rs/bcrypt-android-arm64@npm:1.6.2"
+"@node-rs/bcrypt-android-arm64@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@node-rs/bcrypt-android-arm64@npm:1.7.0"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-darwin-arm64@npm:1.6.2":
-  version: 1.6.2
-  resolution: "@node-rs/bcrypt-darwin-arm64@npm:1.6.2"
+"@node-rs/bcrypt-darwin-arm64@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@node-rs/bcrypt-darwin-arm64@npm:1.7.0"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-darwin-x64@npm:1.6.2":
-  version: 1.6.2
-  resolution: "@node-rs/bcrypt-darwin-x64@npm:1.6.2"
+"@node-rs/bcrypt-darwin-x64@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@node-rs/bcrypt-darwin-x64@npm:1.7.0"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-freebsd-x64@npm:1.6.2":
-  version: 1.6.2
-  resolution: "@node-rs/bcrypt-freebsd-x64@npm:1.6.2"
+"@node-rs/bcrypt-freebsd-x64@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@node-rs/bcrypt-freebsd-x64@npm:1.7.0"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-linux-arm-gnueabihf@npm:1.6.2":
-  version: 1.6.2
-  resolution: "@node-rs/bcrypt-linux-arm-gnueabihf@npm:1.6.2"
+"@node-rs/bcrypt-linux-arm-gnueabihf@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@node-rs/bcrypt-linux-arm-gnueabihf@npm:1.7.0"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-linux-arm64-gnu@npm:1.6.2":
-  version: 1.6.2
-  resolution: "@node-rs/bcrypt-linux-arm64-gnu@npm:1.6.2"
+"@node-rs/bcrypt-linux-arm64-gnu@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@node-rs/bcrypt-linux-arm64-gnu@npm:1.7.0"
   conditions: os=linux & cpu=arm64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-linux-arm64-musl@npm:1.6.2":
-  version: 1.6.2
-  resolution: "@node-rs/bcrypt-linux-arm64-musl@npm:1.6.2"
+"@node-rs/bcrypt-linux-arm64-musl@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@node-rs/bcrypt-linux-arm64-musl@npm:1.7.0"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-linux-x64-gnu@npm:1.6.2":
-  version: 1.6.2
-  resolution: "@node-rs/bcrypt-linux-x64-gnu@npm:1.6.2"
+"@node-rs/bcrypt-linux-x64-gnu@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@node-rs/bcrypt-linux-x64-gnu@npm:1.7.0"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-linux-x64-musl@npm:1.6.2":
-  version: 1.6.2
-  resolution: "@node-rs/bcrypt-linux-x64-musl@npm:1.6.2"
+"@node-rs/bcrypt-linux-x64-musl@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@node-rs/bcrypt-linux-x64-musl@npm:1.7.0"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-win32-arm64-msvc@npm:1.6.2":
-  version: 1.6.2
-  resolution: "@node-rs/bcrypt-win32-arm64-msvc@npm:1.6.2"
+"@node-rs/bcrypt-win32-arm64-msvc@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@node-rs/bcrypt-win32-arm64-msvc@npm:1.7.0"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-win32-ia32-msvc@npm:1.6.2":
-  version: 1.6.2
-  resolution: "@node-rs/bcrypt-win32-ia32-msvc@npm:1.6.2"
+"@node-rs/bcrypt-win32-ia32-msvc@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@node-rs/bcrypt-win32-ia32-msvc@npm:1.7.0"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt-win32-x64-msvc@npm:1.6.2":
-  version: 1.6.2
-  resolution: "@node-rs/bcrypt-win32-x64-msvc@npm:1.6.2"
+"@node-rs/bcrypt-win32-x64-msvc@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@node-rs/bcrypt-win32-x64-msvc@npm:1.7.0"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
 
-"@node-rs/bcrypt@npm:^1.6.2":
-  version: 1.6.2
-  resolution: "@node-rs/bcrypt@npm:1.6.2"
+"@node-rs/bcrypt@npm:1.7.0":
+  version: 1.7.0
+  resolution: "@node-rs/bcrypt@npm:1.7.0"
   dependencies:
-    "@node-rs/bcrypt-android-arm-eabi": 1.6.2
-    "@node-rs/bcrypt-android-arm64": 1.6.2
-    "@node-rs/bcrypt-darwin-arm64": 1.6.2
-    "@node-rs/bcrypt-darwin-x64": 1.6.2
-    "@node-rs/bcrypt-freebsd-x64": 1.6.2
-    "@node-rs/bcrypt-linux-arm-gnueabihf": 1.6.2
-    "@node-rs/bcrypt-linux-arm64-gnu": 1.6.2
-    "@node-rs/bcrypt-linux-arm64-musl": 1.6.2
-    "@node-rs/bcrypt-linux-x64-gnu": 1.6.2
-    "@node-rs/bcrypt-linux-x64-musl": 1.6.2
-    "@node-rs/bcrypt-win32-arm64-msvc": 1.6.2
-    "@node-rs/bcrypt-win32-ia32-msvc": 1.6.2
-    "@node-rs/bcrypt-win32-x64-msvc": 1.6.2
+    "@node-rs/bcrypt-android-arm-eabi": 1.7.0
+    "@node-rs/bcrypt-android-arm64": 1.7.0
+    "@node-rs/bcrypt-darwin-arm64": 1.7.0
+    "@node-rs/bcrypt-darwin-x64": 1.7.0
+    "@node-rs/bcrypt-freebsd-x64": 1.7.0
+    "@node-rs/bcrypt-linux-arm-gnueabihf": 1.7.0
+    "@node-rs/bcrypt-linux-arm64-gnu": 1.7.0
+    "@node-rs/bcrypt-linux-arm64-musl": 1.7.0
+    "@node-rs/bcrypt-linux-x64-gnu": 1.7.0
+    "@node-rs/bcrypt-linux-x64-musl": 1.7.0
+    "@node-rs/bcrypt-win32-arm64-msvc": 1.7.0
+    "@node-rs/bcrypt-win32-ia32-msvc": 1.7.0
+    "@node-rs/bcrypt-win32-x64-msvc": 1.7.0
   dependenciesMeta:
     "@node-rs/bcrypt-android-arm-eabi":
       optional: true
@@ -1882,7 +1882,7 @@ __metadata:
       optional: true
     "@node-rs/bcrypt-win32-x64-msvc":
       optional: true
-  checksum: 70898b27b5ebcd6494e060c26b4d360e6c4784f41ecca45cb17fa0d629ab306025f1938eb4ae4f439f0012afed7f7b80ca2e5d4e513deeb433396df00d216620
+  checksum: 22adfd4aaf8440be331af6cf82e6b6ff4349ad6acf3025cdd3b045d38c421e4c370cdda136fdd91ef22d233a749c53d29f76522f2a4557cb23871c4cad9fe12d
   languageName: node
   linkType: hard
 
@@ -2051,7 +2051,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@size-limit/preset-small-lib@npm:^7.0.8":
+"@size-limit/preset-small-lib@npm:7.0.8":
   version: 7.0.8
   resolution: "@size-limit/preset-small-lib@npm:7.0.8"
   dependencies:
@@ -2195,6 +2195,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/jest@npm:27.4.1":
+  version: 27.4.1
+  resolution: "@types/jest@npm:27.4.1"
+  dependencies:
+    jest-matcher-utils: ^27.0.0
+    pretty-format: ^27.0.0
+  checksum: 5184f3eef4832d01ee8f59bed15eec45ccc8e29c724a5e6ce37bf74396b37bdf04f557000f45ba4fc38ae6075cf9cfcce3d7a75abc981023c61ceb27230a93e4
+  languageName: node
+  linkType: hard
+
 "@types/jest@npm:^25.2.1":
   version: 25.2.3
   resolution: "@types/jest@npm:25.2.3"
@@ -2205,16 +2215,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jest@npm:^27.4.1":
-  version: 27.4.1
-  resolution: "@types/jest@npm:27.4.1"
-  dependencies:
-    jest-matcher-utils: ^27.0.0
-    pretty-format: ^27.0.0
-  checksum: 5184f3eef4832d01ee8f59bed15eec45ccc8e29c724a5e6ce37bf74396b37bdf04f557000f45ba4fc38ae6075cf9cfcce3d7a75abc981023c61ceb27230a93e4
-  languageName: node
-  linkType: hard
-
 "@types/json-schema@npm:^7.0.3":
   version: 7.0.8
   resolution: "@types/json-schema@npm:7.0.8"
@@ -2222,7 +2222,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/jsonwebtoken@npm:^8.5.8":
+"@types/jsonwebtoken@npm:8.5.8":
   version: 8.5.8
   resolution: "@types/jsonwebtoken@npm:8.5.8"
   dependencies:
@@ -2238,7 +2238,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>=12, @types/node@npm:^17.0.21":
+"@types/node@npm:*, @types/node@npm:17.0.21, @types/node@npm:>=12":
   version: 17.0.21
   resolution: "@types/node@npm:17.0.21"
   checksum: 89dcd2fe82f21d3634266f8384e9c865cf8af49685639fbdbd799bdd1040480fb1e8eeda2d3b9fce41edbe704d2a4be9f427118c4ae872e8d9bb7cbeb3c41a94
@@ -2365,7 +2365,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/node@npm:^1.13.0":
+"@vercel/node@npm:1.13.0":
   version: 1.13.0
   resolution: "@vercel/node@npm:1.13.0"
   dependencies:
@@ -4725,6 +4725,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-prettier@npm:4.0.0":
+  version: 4.0.0
+  resolution: "eslint-plugin-prettier@npm:4.0.0"
+  dependencies:
+    prettier-linter-helpers: ^1.0.0
+  peerDependencies:
+    eslint: ">=7.28.0"
+    prettier: ">=2.0.0"
+  peerDependenciesMeta:
+    eslint-config-prettier:
+      optional: true
+  checksum: 03d69177a3c21fa2229c7e427ce604429f0b20ab7f411e2e824912f572a207c7f5a41fd1f0a95b9b8afe121e291c1b1f1dc1d44c7aad4b0837487f9c19f5210d
+  languageName: node
+  linkType: hard
+
 "eslint-plugin-prettier@npm:^3.1.0":
   version: 3.4.0
   resolution: "eslint-plugin-prettier@npm:3.4.0"
@@ -4737,21 +4752,6 @@ __metadata:
     eslint-config-prettier:
       optional: true
   checksum: 30a07e8d12637d2988e371f6a20ff4c86fd7fdc3596d1d18d62c0367804f38e06a65052d0281234aeb2552e4d1908dcb2de20543413e038251a2717a46400a9d
-  languageName: node
-  linkType: hard
-
-"eslint-plugin-prettier@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "eslint-plugin-prettier@npm:4.0.0"
-  dependencies:
-    prettier-linter-helpers: ^1.0.0
-  peerDependencies:
-    eslint: ">=7.28.0"
-    prettier: ">=2.0.0"
-  peerDependenciesMeta:
-    eslint-config-prettier:
-      optional: true
-  checksum: 03d69177a3c21fa2229c7e427ce604429f0b20ab7f411e2e824912f572a207c7f5a41fd1f0a95b9b8afe121e291c1b1f1dc1d44c7aad4b0837487f9c19f5210d
   languageName: node
   linkType: hard
 
@@ -5207,7 +5207,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fastify@npm:^3.27.2":
+"fastify@npm:3.27.2":
   version: 3.27.2
   resolution: "fastify@npm:3.27.2"
   dependencies:
@@ -5984,7 +5984,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:^7.0.4":
+"husky@npm:7.0.4":
   version: 7.0.4
   resolution: "husky@npm:7.0.4"
   bin:
@@ -7252,7 +7252,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonwebtoken@npm:^8.5.1":
+"jsonwebtoken@npm:8.5.1":
   version: 8.5.1
   resolution: "jsonwebtoken@npm:8.5.1"
   dependencies:
@@ -8739,21 +8739,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier@npm:2.5.1":
+  version: 2.5.1
+  resolution: "prettier@npm:2.5.1"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 21b9408476ea1c544b0e45d51ceb94a84789ff92095abb710942d780c862d0daebdb29972d47f6b4d0f7ebbfb0ffbf56cc2cfa3e3e9d1cca54864af185b15b66
+  languageName: node
+  linkType: hard
+
 "prettier@npm:^1.19.1":
   version: 1.19.1
   resolution: "prettier@npm:1.19.1"
   bin:
     prettier: ./bin-prettier.js
   checksum: bc78219e0f8173a808f4c6c8e0a137dd8ebd4fbe013e63fe1a37a82b48612f17b8ae8e18a992adf802ee2cf7428f14f084e7c2846ca5759cf4013c6e54810e1f
-  languageName: node
-  linkType: hard
-
-"prettier@npm:^2.5.1":
-  version: 2.5.1
-  resolution: "prettier@npm:2.5.1"
-  bin:
-    prettier: bin-prettier.js
-  checksum: 21b9408476ea1c544b0e45d51ceb94a84789ff92095abb710942d780c862d0daebdb29972d47f6b4d0f7ebbfb0ffbf56cc2cfa3e3e9d1cca54864af185b15b66
   languageName: node
   linkType: hard
 
@@ -9773,7 +9773,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"size-limit@npm:^7.0.8":
+"size-limit@npm:7.0.8":
   version: 7.0.8
   resolution: "size-limit@npm:7.0.8"
   dependencies:
@@ -10058,7 +10058,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"standard-version@npm:^9.3.2":
+"standard-version@npm:9.3.2":
   version: 9.3.2
   resolution: "standard-version@npm:9.3.2"
   dependencies:
@@ -10640,7 +10640,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tsdx@npm:^0.14.1":
+"tsdx@npm:0.14.1":
   version: 0.14.1
   resolution: "tsdx@npm:0.14.1"
   dependencies:
@@ -10713,17 +10713,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tslib@npm:2.3.1, tslib@npm:^2.0.3":
+  version: 2.3.1
+  resolution: "tslib@npm:2.3.1"
+  checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
+  languageName: node
+  linkType: hard
+
 "tslib@npm:^1.8.1, tslib@npm:^1.9.0, tslib@npm:^1.9.3":
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
-  languageName: node
-  linkType: hard
-
-"tslib@npm:^2.0.3, tslib@npm:^2.3.1":
-  version: 2.3.1
-  resolution: "tslib@npm:2.3.1"
-  checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
   languageName: node
   linkType: hard
 
@@ -10831,6 +10831,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typescript@npm:4.6.2, typescript@npm:^4.4.3":
+  version: 4.6.2
+  resolution: "typescript@npm:4.6.2"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 8a44ed7e6f6c4cb1ebe8cf236ecda2fb119d84dcf0fbd77e707b2dfea1bbcfc4e366493a143513ce7f57203c75da9d4e20af6fe46de89749366351046be7577c
+  languageName: node
+  linkType: hard
+
 "typescript@npm:^3.7.3":
   version: 3.9.10
   resolution: "typescript@npm:3.9.10"
@@ -10838,16 +10848,6 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: 46c842e2cd4797b88b66ef06c9c41dd21da48b95787072ccf39d5f2aa3124361bc4c966aa1c7f709fae0509614d76751455b5231b12dbb72eb97a31369e1ff92
-  languageName: node
-  linkType: hard
-
-"typescript@npm:^4.4.3, typescript@npm:^4.6.2":
-  version: 4.6.2
-  resolution: "typescript@npm:4.6.2"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 8a44ed7e6f6c4cb1ebe8cf236ecda2fb119d84dcf0fbd77e707b2dfea1bbcfc4e366493a143513ce7f57203c75da9d4e20af6fe46de89749366351046be7577c
   languageName: node
   linkType: hard
 
@@ -10861,6 +10861,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"typescript@patch:typescript@4.6.2#~builtin<compat/typescript>, typescript@patch:typescript@^4.4.3#~builtin<compat/typescript>":
+  version: 4.6.2
+  resolution: "typescript@patch:typescript@npm%3A4.6.2#~builtin<compat/typescript>::version=4.6.2&hash=701156"
+  bin:
+    tsc: bin/tsc
+    tsserver: bin/tsserver
+  checksum: 40b493a71747fb89fa70df104e2c4a5e284b43750af5bea024090a5261cefa387f7a9372411b13030f7bf5555cee4275443d08805642ae5c74ef76740854a4c7
+  languageName: node
+  linkType: hard
+
 "typescript@patch:typescript@^3.7.3#~builtin<compat/typescript>":
   version: 3.9.10
   resolution: "typescript@patch:typescript@npm%3A3.9.10#~builtin<compat/typescript>::version=3.9.10&hash=701156"
@@ -10868,16 +10878,6 @@ __metadata:
     tsc: bin/tsc
     tsserver: bin/tsserver
   checksum: dc7141ab555b23a8650a6787f98845fc11692063d02b75ff49433091b3af2fe3d773650dea18389d7c21f47d620fb3b110ea363dab4ab039417a6ccbbaf96fc2
-  languageName: node
-  linkType: hard
-
-"typescript@patch:typescript@^4.4.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.2#~builtin<compat/typescript>":
-  version: 4.6.2
-  resolution: "typescript@patch:typescript@npm%3A4.6.2#~builtin<compat/typescript>::version=4.6.2&hash=701156"
-  bin:
-    tsc: bin/tsc
-    tsserver: bin/tsserver
-  checksum: 40b493a71747fb89fa70df104e2c4a5e284b43750af5bea024090a5261cefa387f7a9372411b13030f7bf5555cee4275443d08805642ae5c74ef76740854a4c7
   languageName: node
   linkType: hard
 
